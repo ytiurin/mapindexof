@@ -3,13 +3,11 @@ Adds a .mapIndexOf() method to an Array. Allow to get an index of an object in t
 
 ## Usage example
 ```javascript
-!function(){
-  var arr=[
-    {a:1,b:2},
-    {a:3,b:4}
-  ];
+var arr=[
+  {a:1,b:2},
+  {a:3,b:4}
+];
 
-  arr.mapIndexOf('b',4);
-  //1
-}();
+arr.mapIndexOf('b',4);
+//1
 ```
